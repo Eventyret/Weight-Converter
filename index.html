@@ -51,7 +51,8 @@
 <script>
 document.getElementById('output').style.visibility = 'hidden';
 document.getElementById('InputNumber').addEventListener('input', function(e) {
-    document.getElementById('output').style.visibility = 'visible';
+document.getElementById('output').style.visibility = 'visible';
+
 var pounds = e.target.value;
 document.getElementById('gramsOutput').innerHTML = pounds/0.0022046;
 document.getElementById('kgOutput').innerHTML = pounds/2.2046;
